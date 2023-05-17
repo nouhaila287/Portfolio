@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang=fr>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/journal/bootstrap.min.css">
+	
+	<!-- Custom fonts for this template -->
+  	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  	<!-- Custom styles for this template -->
+
+	<script src="https://kit.fontawesome.com/ebc72dbf59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		  <a class="navbar-brand" href="index.html">Nouhaila Hajjimi</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarColor01">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">Home</a>
+		      </li>
+		      <!--
+		      <li class="nav-item">
+		        <a class="nav-link" href="resume.html">Resume</a>
+		      </li>
+		  -->
+		      <li class="nav-item">
+		        <a class="nav-link" href="contact.html">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+
+	<div class="jumbotron">
+		<h1>Contact</h1>
+	  	<p class="lead">Interested in hiring me for your project or just want to say hi? You can fill in the contact form below.</p>
+	  	<hr class="my-4">
+	  	<p class="contact">Want to get connected ? Follow me on the social channels below.</p>
+	  	<!--Facebook-->
+		<a class="fb-ic mr-3" role="button" href="https://www.facebook.com/profile.php?id=100009835985310" target="_blank"><i class="fab fa-lg fa-facebook-f"></i></a>
+	  	<!--Linkedin-->
+		<a class="li-ic mr-3" role="button" href="https://www.linkedin.com/in/nouhaila-hajjimi-810277174/" target="_blank"><i class="fab fa-lg fa-linkedin-in"></i></a>
+		<!--Instagram-->
+		<a class="ins-ic mr-3" role="button" href="https://www.instagram.com/nouhaila_hajjimi/" target="_blank"><i class="fab fa-lg fa-instagram"></i></a>
+		<!--Twitter-->
+		<a class="tw-ic mr-3" role="button" href="https://github.com/nouhaila287" target="_blank"><i class="fab fa-lg fa-github"></i></a>
+	</div>
+	<form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" action="mail.php">
+		<h1>Get in touch</h1>
+		<div class="form-row">
+			<div class="form-group col-md-6">
+				<label class="sr-only" for="cname">Name</label>
+				<input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required aria-required="true">
+			</div>
+			<div class="form-group col-md-6">
+				<label class="sr-only" for="email">Email</label>
+				<input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required aria-required="true">
+			</div>
+			<div class="form-group col-12">
+				<label class="sr-only" for="csubject">Subject</label>
+				<input type="text" class="form-control" id="csubject" name="subject" placeholder="Enter a subject" minlength="2" required aria-required="true">
+			</div>
+			<div class="form-group col-12">
+				<label class="sr-only" for="cmessage">Your message</label>
+				<textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="10" required aria-required="true"></textarea>
+			</div>
+			<div class="form-group col-12">
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+		</div>	
+	</form>
+</body>
+</html>
